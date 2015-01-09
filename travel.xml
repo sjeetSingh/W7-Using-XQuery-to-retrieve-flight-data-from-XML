@@ -1,0 +1,79 @@
+<travel>
+	
+	<airport code="A01">
+		<name>JFK Airport</name>
+	</airport>
+		<airport code="A02">
+		<name>DFW Airport</name>
+	</airport>
+		<airport code="A03">
+		<name>LAX Airport</name>
+	</airport>
+	
+	<flight id="f1" from="A02" to="A03">
+		<date>11/20/2014</date>
+		<departureTime>08:00</departureTime>
+		<arrivalTime>09:00</arrivalTime>
+	</flight>
+	<flight id="f2" from="A03" to="A01">
+		<date>11/21/2014</date>
+		<departureTime>04:30</departureTime>
+		<arrivalTime>11:00</arrivalTime>
+	</flight>
+	<flight id="f3" from="A01" to="A02">
+		<date>11/22/2014</date>
+		<departureTime>08:00</departureTime>
+		<arrivalTime>09:00</arrivalTime>
+	</flight>
+	<flight id="f4" from="A02" to="A01">
+		<date>11/20/2014</date>
+		<departureTime>09:00</departureTime>
+		<arrivalTime>13:00</arrivalTime>
+	</flight>
+
+	<passenger ssn="p1SSN">
+		<name>Passenger1</name>
+		<address>Address1</address>
+	</passenger>
+	<passenger ssn="p2SSN">
+		<name>Passenger2</name>
+		<address>Address2</address>
+	</passenger>
+	<passenger ssn="p3SSN">
+		<name>Passenger3</name>
+		<address>Address3</address>
+	</passenger>
+	<passenger ssn="p4SSN">
+		<name>Passenger4</name>
+		<address>Address4</address>
+	</passenger>
+	<passenger ssn="jsSSn">
+		<name>John Smith</name>
+		<address>Arlington</address>
+	</passenger>	
+
+	<reservation passenger="p1SSN" flight="f1">
+		<creditCard> Visa(123-456)</creditCard>
+	</reservation>
+	<reservation passenger="p2SSN" flight="f3">
+		<creditCard> MasterCard(456-789)</creditCard>
+	</reservation>
+	<reservation passenger="p3SSN" flight="f2">
+		<creditCard> Visa(976-160)</creditCard>
+	</reservation>
+	<reservation passenger="jsSSn" flight="f1">
+		<creditCard> American Express(886-668)</creditCard>
+	</reservation>
+
+</travel>
+
+
+
+
+
+
+
+
+
+
+
